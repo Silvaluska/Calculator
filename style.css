@@ -70,3 +70,36 @@
     text-align: center;
     color: white;
 }
+
+@media screen and (max-width: 480px) {
+    body {
+        background: black;
+    }
+    .calculadora {
+        width: 98%;
+        margin: 100px auto;
+    }
+    .numeros {
+        font-size: 2em;
+        width: 23%;
+        margin-left: 1%;
+        margin-top: 5%;
+        padding: 10% 0 10% 0;
+    }
+    .operadores {
+        font-size: 2em;
+        width: 23%;
+        padding: 10% 0 10% 0;
+    }
+    .funcoes {
+        font-size: 2em;
+        width: 23%;
+        margin-left: 1%;
+        margin-top: 5%;
+        padding: 10% 0 10% 0;
+    }
+    .resposta {
+        font-size: 2em;
+        margin-top: 5%;
+    }
+}
