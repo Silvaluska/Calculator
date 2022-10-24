@@ -1,0 +1,72 @@
+.calculadora {
+    width: 50%;
+    margin: 100px auto;
+    border: 1px solid red;
+    background: black;
+}
+
+.numeros {
+    width: 24%;
+    display: inline-block;
+    margin-left: 0.5%;
+    margin-top: 0.5%;
+    font-size: 3em;
+    border: 1px solid red;
+    border-radius: 0.2em;
+    text-align: center;
+    background: black;
+    color: white;
+}
+
+.numeros:active {
+    background: white;
+    color: black;
+}
+
+.operadores {
+    width: 24%;
+    display: inline-block;
+    margin-left: 0.5%;
+    margin-top: 0.5%;
+    font-size: 3em;
+    border: 1px solid red;
+    border-radius: 0.2em;
+    text-align: center;
+    background: black;
+    color: white;
+}
+
+.operadores:active {
+    background: white;
+    color: black;
+}
+
+.funcoes {
+    width: 24%;
+    display: inline-block;
+    margin-left: 0.5%;
+    margin-top: 0.5%;
+    font-size: 3em;
+    border: 1px solid red;
+    border-radius: 0.2em;
+    text-align: center;
+    background: black;
+    color: white;
+}
+
+.funcoes:active {
+    background: white;
+    color: black;
+}
+
+.resposta {
+    width: 99%;
+    margin: 0.5%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border: 1px solid red;
+    border-radius: 0.2em;
+    font-size: 3em;
+    text-align: center;
+    color: white;
+}
