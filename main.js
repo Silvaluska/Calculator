@@ -41,7 +41,8 @@ for (var i = 0; i < 2 ; i++) {
             else if (operador == '/') {
                 resposta.innerHTML = parseInt(numero1) / parseInt(numero2)
             }
-            console.log(resposta)
+            numero1 = resposta
+            numero2 = ''
         }
         if (funcoes[id].innerHTML == 'c') {
             numero1 = '';
