@@ -78,6 +78,7 @@
     .calculadora {
         width: 98%;
         margin: 100px auto;
+        border: 0;
     }
     .numeros {
         font-size: 2em;
