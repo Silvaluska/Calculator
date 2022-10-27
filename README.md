@@ -3,7 +3,7 @@
  ## Introdução
  Este Projeto começou atráves de um desafio de 7 dias de JavaScript da Alura. O desafio final era montar um calculadora em Js que receberia um input pelo prompt e daria o resultado com um alert, entretanto, eu está insatisfeito em fazer apenas isso, então resolvi criar uma calculadora em HTML que ao clicar nos botões da pagina o Js salvaria esses valores e faria os calculos requisitado pelo usuário. 
 
-<img src="https://user-images.githubusercontent.com/113150953/198393868-db414d21-ed0e-4469-af1a-c29da3aa68ba.png" width=500>
+<img src="https://user-images.githubusercontent.com/113150953/198393868-db414d21-ed0e-4469-af1a-c29da3aa68ba.png" width=300>
 
  ## Arquivos
  - index.html: Arquivo HTML contendo todas as informações da calculadora
