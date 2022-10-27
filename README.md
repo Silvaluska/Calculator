@@ -15,7 +15,9 @@
  - main.js: Arquivo contendo todo o codigo que coleta as informações clicadas pelo usuário e processa elas de forma a gerar o calculo necessário para o funcionamento da calculadora.
 
  ## Responsividade
- O CSS possui codigo para que a calculadora mude seu visual para se adaptar as telas de Smartphone com telas até 480px de largura
+ O CSS possui codigo para que a calculadora mude seu visual para se adaptar as telas de Smartphone com telas até 480px de largura.
+ 
+ <img src="https://user-images.githubusercontent.com/113150953/198394986-74d309d2-9b79-4766-a3bc-fd0ec1350624.jpeg" width=200 style="margin: 0 auto;">
 
  ## Acesso ao projeto
  Você pode testar a minha versão da calculadora atráves do link abaixo. 
