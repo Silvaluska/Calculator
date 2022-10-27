@@ -30,16 +30,16 @@ for (var i = 0; i < 2 ; i++) {
     funcoes[i].onclick = function() {
         if (funcoes[id].innerHTML == '=') {
             if (operador == '+') {
-                resposta.innerHTML = parseInt(numero1) + parseInt(numero2) 
+                resposta.innerHTML = parseFloat(numero1) + parseFloat(numero2) 
             }
             else if (operador == '-') {
-                resposta.innerHTML = parseInt(numero1) - parseInt(numero2)
+                resposta.innerHTML = parseFloat(numero1) - parseFloat(numero2)
             }
             else if (operador == 'x') {
-                resposta.innerHTML = parseInt(numero1) * parseInt(numero2)
+                resposta.innerHTML = parseFloat(numero1) * parseFloat(numero2)
             }
             else if (operador == '/') {
-                resposta.innerHTML = parseInt(numero1) / parseInt(numero2)
+                resposta.innerHTML = parseFloat(numero1) / parseFloat(numero2)
             }
             numero1 = resposta.innerHTML
             numero2 = ''
@@ -48,7 +48,7 @@ for (var i = 0; i < 2 ; i++) {
             numero1 = '';
             numero2 = '';
             operador = null;
-            resposta.innerHTML = ' '
+            resposta.innerHTML = 'Calculadora'
         }
     }
 }
